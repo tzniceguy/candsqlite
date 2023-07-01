@@ -52,8 +52,13 @@ gcc app.c -o app -lsqlite3
 ``` 
 ## Usage 
 Upon running the program, you will be presented with a menu: 
-1. Register: Allows you to register a new student by entering their details. 2. Your Account: Allows you to retrieve student details by entering the student ID. 3. Exit: Exits the program. 
+1. Register: Allows you to register a new student by entering their details.
+2. 2. Your Account: Allows you to retrieve student details by entering the student ID.
+3. Exit: Exits the program.
+
+   
 Follow the on-screen prompts to navigate through the menu and interact with the program. 
 Please note that a SQLite database file named "registration.db" will be created in the same directory as the executable. This file will store the student records. 
+
 NOTE: ID - is the student registration number which consist of 14 characters MAJOR - Your enrolled course to the institute, ie. BCS,BIT for Bachelor Of Computer Science and Bachelor of Information Technology respectively 
 NAME: Full name of Student not more than 50 characters
